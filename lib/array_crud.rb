@@ -13,15 +13,16 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-   animals = ["dog", "cat", "fish", "rabbit"]
+  animals = ["dog", "cat", "fish", "rabbit"]
   animals.unshift ("wow")
   p animals
 end
 
 def remove_element_from_end_of_array(array)
-   animals = ["dog", "cat", "fish", "rabbit"]
-  animals.push ("arrays!")
+  animals = ["dog", "cat", "fish", "rabbit", "arrays!"]
+  array_animal = animals.pop 
   p animals
+  p array_animal
 end
 
 def remove_element_from_start_of_array(array)
